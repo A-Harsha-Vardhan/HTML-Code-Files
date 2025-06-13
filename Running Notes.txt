@@ -1,0 +1,172 @@
+09-06
+-------------------
+
+
+
+front end
+
+html
+css	
+	bootstrap
+	material ui
+	tailwindcss
+	shadcn
+javascript
+	reactjs
+	angular,angularjs
+	vuejs
+
+GitHub
+
+deployment
+	aws		-> Pay As You Use
+	render
+	vercel
+	netlify
+	firebase
+	pythonanywhere
+
+back end
+
+
+
+
+
+
+
+
+Code writing
+
+Input
+	vscode
+Output
+	chrome
+
+Notes:
+-----------------------
+
+-> in html,we are going to write everything in a tag format, also called as element.
+
+
+opening element <element>
+closing element </element>
+self closing element <element/>
+
+
+<html>
+	<head></head>
+	<body></body>
+</html>
+
+
+HTML (hyper text markup language) :-
+
+a (text) information is accessed in a particular structure (markup) in a specific understandable language to access in other devices (hyper)
+
+shortcut = !(shift+1) + enter in .html
+
+
+		
+Attribute:
+
+it is a feature which changes an element's basic structure
+ex: align which carries left ,right ,justify ,center
+
+<p align = "justify"></p> 		->text matches browser size
+
+should be given for opening tag only.
+
+
+Heading tags :
+
+there are 6 heading tags from <h1> to <h6> from descending order of size.
+
+pre -> customized para 
+
+returns bold values only
+
+
+10-06
+------------------------
+
+
+in html, we use image tag as "img" which is a self closing tag. it carries 
+
+-> src [address of the image path] 
+-> alt [alternative information]
+-> width and height --> for adjusting the image
+
+Table Tag:
+-------------
+which carries 	tr -> table row.
+		td -> table data.
+		th -> table head.
+		
+
+
+11-06
+--------------------------------
+Linking :
+
+To give connection from one page to another page, we use anchor tag <a> .
+it carries two attributes, 
+	-> href
+	-> target
+ 
+href defines the address , target defines where we need to open the respective window .
+
+
+Lists:
+
+we are having 3 types ,
+
+-> Unordered
+-> Ordered		
+-> Descriptive
+
+Unordered:
+----------------------
+	which provides list information in symbols format.it carries type as an attribute with value {disc,square,circle,none}
+
+Ordered:
+----------------------
+	which provides the list information in a sequence of values.it carries type as an attribute with value {1,a,A,i,I}
+
+Descriptive:
+----------------------
+	which have
+-> descriptive term (dt)
+-> descriptive data (dd)
+
+
+12-06:
+-------------------------------
+
+Input Fields:
+
+input is a self closing tag />
+
+In HTML , when we want to take data from users , we are going to use input field which carries 
+
+type attribute 	-> text, email, number, password, radio, checkbox, file, date, [submit, reset, button.]
+
+placeholder 	which gives dummy data.
+name 		which provides unique identity.
+required	mandatory !!
+
+
+						GITHUB
+------------------------------------------------------------------------------------------------------------------------------------------
+GitHub is a platform which helps us in 
+-> version controlling
+-> co-ordinating with your employees.
+-> you can access your code from anywhere.
+-> for deployment , GitHub is going to play a crucial role. 
+
+
+
+	GitHub									Git
+
+-> GitHub is like a Cloud.						-> Git is like a local system's software.
+   Through internet , we are going to access it.		       	 Through using it, we push the code into GitHub.
+												   
