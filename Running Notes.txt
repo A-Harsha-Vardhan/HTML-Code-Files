@@ -154,7 +154,7 @@ placeholder 	which gives dummy data.
 name 		which provides unique identity.
 required	mandatory !!
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 						GITHUB
 ------------------------------------------------------------------------------------------------------------------------------------------
 GitHub is a platform which helps us in 
@@ -163,10 +163,36 @@ GitHub is a platform which helps us in
 -> you can access your code from anywhere.
 -> for deployment , GitHub is going to play a crucial role. 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 	GitHub									Git
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 -> GitHub is like a Cloud.						-> Git is like a local system's software.
    Through internet , we are going to access it.		       	 Through using it, we push the code into GitHub.
-												   
+
+commands:
+
+-> git init	 		: for initializing in GitHub.
+
+-> git add . 	 		: for adding all the system files into GitHub.
+
+-> git commit -m "first commit"	: which is for providing the version identity.
+
+-> git branch -M main		: which is for providing the branch through which we are passing.
+
+-> git remote			: which is for accessing our GitHub code from anywhere.
+
+-> git push -u origin main	: this command helps to push the code into GitHub.
+
+-------------------------------------------------------------------------------------------------------------------------------------------- 
+
+GitHub Code Updating :
+
+if u want to update a GitHub logic, u need to perform or execute 3 commands.
+
+-> git add .			-> to add all the updated files
+-> git commit -m "link updated"	 
+-> git push			 
+
+Note: we have to execute this commands from the respective GitHub folder.
